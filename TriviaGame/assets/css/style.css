@@ -1,0 +1,47 @@
+html,
+body {
+	height: 100%;
+}
+
+#background {
+	height: 100%;
+	background-image: url(../images/background.png);
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+body {
+	text-align: center;
+}
+
+button {
+	display: block;
+	width: 300;
+	height: 100px;
+	margin: 10px auto 0;
+	font-size: 42px;
+	cursor: pointer;
+	background: transparent;
+	border: solid;
+	border-color: #43b2a3;
+}
+
+h1 {
+	margin-bottom: 50px;
+	font-family: Geo, sans-serif;
+	font-size: 6.5em;
+	font-weight: bold;
+	color: #43b2a3;
+}
+
+#enter {
+	margin-top: 10%;
+	background: pink;
+	border: 2px solid blue;
+}
+
+button:hover {
+	background: pink;
+	border: 1px solid blue;
+}
